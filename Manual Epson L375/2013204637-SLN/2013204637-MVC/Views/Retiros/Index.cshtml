@@ -1,0 +1,58 @@
+﻿@model IEnumerable<_2013204637.Retiro>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ATM.DescATM)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Cuenta.DescCuenta)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Monto)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DescRetiro)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FechaRetiro)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ATM.DescATM)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Cuenta.DescCuenta)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Monto)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DescRetiro)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FechaRetiro)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.RetiroId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.RetiroId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.RetiroId })
+        </td>
+    </tr>
+}
+
+</table>

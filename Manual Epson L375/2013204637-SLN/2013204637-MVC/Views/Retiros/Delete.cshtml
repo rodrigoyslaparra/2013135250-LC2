@@ -1,0 +1,65 @@
+﻿@model _2013204637.Retiro
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Retiro</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ATM.DescATM)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ATM.DescATM)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Cuenta.DescCuenta)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Cuenta.DescCuenta)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Monto)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Monto)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DescRetiro)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DescRetiro)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FechaRetiro)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FechaRetiro)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

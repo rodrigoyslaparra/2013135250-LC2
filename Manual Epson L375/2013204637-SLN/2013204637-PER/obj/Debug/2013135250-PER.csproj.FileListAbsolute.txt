@@ -1,0 +1,14 @@
+C:\Users\RODRIGO\Desktop\Manual Epson L375\2013204637-SLN\2013204637-PER\bin\Debug\2013204637-PER.dll.config
+C:\Users\RODRIGO\Desktop\Manual Epson L375\2013204637-SLN\2013204637-PER\bin\Debug\2013204637-PER.dll
+C:\Users\RODRIGO\Desktop\Manual Epson L375\2013204637-SLN\2013204637-PER\bin\Debug\2013204637-PER.pdb
+C:\Users\RODRIGO\Desktop\Manual Epson L375\2013204637-SLN\2013204637-PER\bin\Debug\2013204637-ENT.dll
+C:\Users\RODRIGO\Desktop\Manual Epson L375\2013204637-SLN\2013204637-PER\bin\Debug\EntityFramework.dll
+C:\Users\RODRIGO\Desktop\Manual Epson L375\2013204637-SLN\2013204637-PER\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\RODRIGO\Desktop\Manual Epson L375\2013204637-SLN\2013204637-PER\bin\Debug\2013204637-ENT.pdb
+C:\Users\RODRIGO\Desktop\Manual Epson L375\2013204637-SLN\2013204637-PER\bin\Debug\EntityFramework.xml
+C:\Users\RODRIGO\Desktop\Manual Epson L375\2013204637-SLN\2013204637-PER\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\RODRIGO\Desktop\Manual Epson L375\2013204637-SLN\2013204637-PER\obj\Debug\2013135250-PER.csprojResolveAssemblyReference.cache
+C:\Users\RODRIGO\Desktop\Manual Epson L375\2013204637-SLN\2013204637-PER\obj\Debug\_2013204637_PER.Migrations.rod12435639685g4.resources
+C:\Users\RODRIGO\Desktop\Manual Epson L375\2013204637-SLN\2013204637-PER\obj\Debug\2013135250-PER.csproj.GenerateResource.Cache
+C:\Users\RODRIGO\Desktop\Manual Epson L375\2013204637-SLN\2013204637-PER\obj\Debug\2013204637-PER.dll
+C:\Users\RODRIGO\Desktop\Manual Epson L375\2013204637-SLN\2013204637-PER\obj\Debug\2013204637-PER.pdb
